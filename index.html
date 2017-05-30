@@ -27,36 +27,36 @@
 
     <script src="js/main.js"></script>
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-<!--    From W3Schools jQuery Animate Smooth Scroll-->
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    <!--    From W3Schools jQuery Animate Smooth Scroll-->
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-      // Store hash
-      var hash = this.hash;
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-    
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
 </head>
 
 <body>
@@ -75,11 +75,12 @@ $(document).ready(function(){
                 </button>
                 <a class="navbar-brand" href="#">SisterHacks</a>
             </div>
-            <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav">
-          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a></li>
-        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#faq">FAQ</a></li>
-      </ul>
+            <div class="collapse navbar-collapse navbar-custom" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#faq">FAQ</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#schedule">Schedule</a></li>
+                </ul>
             </div>
             <!--/.navbar-collapse -->
         </div>
@@ -89,74 +90,88 @@ $(document).ready(function(){
     <div class="jumbotron">
         <div class="container">
             <h1 class="title" data-shadow='SisterHacks'>SisterHacks</h1>
-            <h2 class="subtitle">November 4-5, 2017  //  Bryn Mawr College</h2>
+            <h2 class="subtitle">November 4-5, 2017 // Bryn Mawr College</h2>
             <div class="row">
-                <h3 class="title-body"> 
-          <div class="col-md-4 left">5 Schools <br>
-            24 Hours <br>
-            Infinite Creativity </div>
-          <div class="col-md-4 center"><img src="globe.png"></div>
-            <div class="col-md-4 right">Hack for Equality <br> in Technology</div>
-          </h3>
+                <h3 class="title-body">
+                    <div class="col-md-4 left">5 Schools <br> 24 Hours <br> Infinite Creativity </div>
+                    <div class="col-md-4 center"><img src="globe.png"></div>
+                    <div class="col-md-4 right">Hack for Equality in Technology</div>
+                </h3>
             </div>
             <p><a class="btn btn-sample btn-lg" href="#" role="button">Register</a></p>
         </div>
     </div>
-    
-    <div class="container">
-        
-        <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-sm-12 about" id="about">
-                <div class="section">
-                <h2>What is SisterHacks?</h2>
-                <p><b>SisterHacks is the first hackathon for the Seven Sisters schools: Barnard, Bryn Mawr, Mount Holyoke, Smith and Wellesley Colleges. Our goal is to empower women in tech by working together with other strong women*. We want to increase interest in computer science at the Seven Sisters and connect the colleges more.
+
+    <div class="about-container">
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-sm-12 about" id="about">
+                    <div class="section">
+                        <h2>What is SisterHacks?</h2>
+                        <p><b>SisterHacks is the first hackathon for the Seven Sisters schools: Barnard, Bryn Mawr, Mount Holyoke, Smith and Wellesley Colleges. Our goal is to empower women in tech by working together with other strong women*. We want to increase interest in computer science at the Seven Sisters and connect the colleges more.
                 <br><br>
                     *We realize that not all students of Seven Sisters schools identify as women and we welcome all trans, non-binary, and gender nonconforming students. </b> </p>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <div class="row faq" id="faq">
-            <div class="section">
-            <h2> FAQ </h2>
-            <div class="col-sm-4">
-                <p><b>What is a hackathon?</b>
-                    <br> It's an event where participants gather together and turn their ideas into finished products in a short amount of time (usually 12-36 hours).
-                    <br>
-                    <br>
-                    <b>Can I come even if I have never written a line of code in my life?</b>
-                    <br> Yes! We encourage beginner to advanced coders who come from a variety of majors (not just CS!) to attend. We will be holding workshops through the hackathon so you can learn something from your time here.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <p><b>Who can participate?</b>
-                    <br> Anyone attending a Seven Sisters college (Barnard, Bryn Mawr, Mount Holyoke, Smith, Wellesley). While this is a hackathon intended for women we encourage all students of the Seven Sister schools to participate, especially those of marginalized racial, gender, and sexual identities. 
-                    <br>
-                    <br>
-                    <b>How will I get to Bryn Mawr? Will there be travel reimbursements?</b>
-                    <br> We plan to have charter buses from each school come to Bryn Mawr so getting here will be of no cost to you. If you do not take the buses, getting here is up to you and we do not plan on having travel reimbursements. Bryn Mawr is easily accessible by public transportation once in Philadelphia.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <p><b>Do I have to be in a team? How many people per team?</b>
-                    <br> Yes, we would like everyone to be in a team of 2-4 people so that you can work with people from different schools with different skills and abilities. Don't worry if you don't have a team! We encourage people looking for team members to utilize our Facebook page to post and connect with fellow participants.
-                    <br>
-                    <br>
-                    <b>Have other questions?</b>
-                    <br> Email us at <a href="mailto:sisterhacksteam@gmail.com">sisterhacksteam@gmail.com</a> and we will be sure to get back to you ASAP!
-                </p>
+    </div>
+
+    <div class="faq-container">
+    <div class="container">
+        <div class="row faq section" id="faq">
+            <div class="col-sm-12">
+                <h2> FAQ </h2>
+                <div class="col-sm-4">
+                    <p><b>What is a hackathon?</b>
+                        <br> It's an event where participants gather together and turn their ideas into finished products in a short amount of time (usually 12-36 hours).
+                        <br>
+                        <br>
+                        <b>How will I get to Bryn Mawr? Will there be travel reimbursements?</b>
+                        <br> We plan to have charter buses from each school come to Bryn Mawr so getting here will be of no cost to you. If you do not take the buses, getting here is up to you and we do not plan on having travel reimbursements. Bryn Mawr is easily accessible by public transportation once in Philadelphia.
+
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p><b>Who can participate?</b>
+                        <br> Anyone attending a Seven Sisters college (Barnard, Bryn Mawr, Mount Holyoke, Smith, Wellesley). While this is a hackathon intended for women we encourage all students of the Seven Sister schools to participate, especially those of marginalized racial, gender, and sexual identities.
+                        <br>
+                        <br>
+                        <b>Can I come even if I have never written a line of code in my life?</b>
+                        <br> Yes! We encourage beginner to advanced coders who come from a variety of majors (not just CS!) to attend. We will be holding workshops through the hackathon so you can learn something from your time here.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p><b>Do I have to be in a team? How many people per team?</b>
+                        <br> Yes, we would like everyone to be in a team of 2-4 people so that you can work with people from different schools with different skills and abilities. Don't worry if you don't have a team! We encourage people looking for team members to utilize our Facebook page to post and connect with fellow participants.
+                        <br>
+                        <br>
+                        <b>Have other questions?</b>
+                        <br> Email us at <a href="mailto:sisterhacksteam@gmail.com">sisterhacksteam@gmail.com</a> and we will be sure to get back to you ASAP!
+                    </p>
                 </div>
             </div>
-
-
         </div>
+    </div>
+    </div>
+    
+    <div class="schedule-container">
+        <div class="container">
+            <div class="row schedule" id="schedule">
+                <div class="section">
+                    <h2>Schedule</h2>
+                    <p><b>Check back closer to the date for more information!</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <hr>
+    <hr>
 
-        <footer>
-            <p>&copy; SisterHacks 2017</p>
-        </footer>
+    <footer>
+        <p>&copy; SisterHacks 2017</p>
+    </footer>
     </div>
     <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -170,10 +185,10 @@ $(document).ready(function(){
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-        (function (b, o, i, l, e, r) {
+        (function(b, o, i, l, e, r) {
             b.GoogleAnalyticsObject = l;
             b[l] || (b[l] =
-                function () {
+                function() {
                     (b[l].q = b[l].q || []).push(arguments)
                 });
             b[l].l = +new Date;

@@ -1,6 +1,7 @@
 a {
     color: #044389;
 }
+
 .navbar .navbar-brand,
 h1,
 h2,
@@ -9,53 +10,54 @@ h4 {
     font-family: 'Lobster', cursive;
 }
 
-.btn-sample { 
-  color: #FFFFFF; 
-  background-color: #FFAD05; 
-  border-color: #D4910C; 
-} 
- 
-.btn-sample:hover, 
-.btn-sample:focus, 
-.btn-sample:active, 
-.btn-sample.active, 
-.open .dropdown-toggle.btn-sample { 
-  color: #FFFFFF; 
-  background-color: #D9C700; 
-  border-color: #D4910C; 
-} 
- 
-.btn-sample:active, 
-.btn-sample.active, 
-.open .dropdown-toggle.btn-sample { 
-  background-image: none; 
-} 
- 
-.btn-sample.disabled, 
-.btn-sample[disabled], 
-fieldset[disabled] .btn-sample, 
-.btn-sample.disabled:hover, 
-.btn-sample[disabled]:hover, 
-fieldset[disabled] .btn-sample:hover, 
-.btn-sample.disabled:focus, 
-.btn-sample[disabled]:focus, 
-fieldset[disabled] .btn-sample:focus, 
-.btn-sample.disabled:active, 
-.btn-sample[disabled]:active, 
-fieldset[disabled] .btn-sample:active, 
-.btn-sample.disabled.active, 
-.btn-sample[disabled].active, 
-fieldset[disabled] .btn-sample.active { 
-  background-color: #FFAD05; 
-  border-color: #D4910C; 
-} 
- 
-.btn-sample .badge { 
-  color: #FFAD05; 
-  background-color: #FFFFFF; 
-}s
+.btn-sample {
+    color: #FFFFFF;
+    background-color: #FFAD05;
+    border-color: #D4910C;
+}
 
-p, nav li {
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    color: #FFFFFF;
+    background-color: #D9C700;
+    border-color: #D4910C;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+    background-color: #FFAD05;
+    border-color: #D4910C;
+}
+
+.btn-sample .badge {
+    color: #FFAD05;
+    background-color: #FFFFFF;
+}
+
+s p,
+nav li {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -79,7 +81,7 @@ nav {
     padding: 0vh 0;
     text-align: center;
     width: 100vw;
-    height: 94vh;
+    height: 100vh;
     background: #ece8ef;
 }
 
@@ -90,6 +92,14 @@ nav {
     text-shadow: .03em .03em 0 hsla(212, 94%, 28%, 1);
 }
 
+.jumbotron h3 {
+    padding: 5vh 0;
+}
+
+.jumbotron img {
+    padding: 0 0;
+}
+
 .btn-primary.outline {
     border: 2px solid #6e75ab;
     color: #6e75ab;
@@ -97,7 +107,7 @@ nav {
 
 .title-body {
     color: #6d03cd;
-    padding: 0 15vw;
+    padding: 0;
 }
 
 .left {
@@ -114,7 +124,7 @@ nav {
 }
 
 .section {
-    padding: 8vh 8vh 4vh 8vh;
+    padding: 8vh 2vh 4vh 2vh;
 }
 
 .section p {
@@ -125,17 +135,56 @@ nav {
 
 .section h2 {
     color: #044389;
+    text-align: center;
+}
+
+.about div {
+    background-color: #fdff93;
+    background-clip: content-box;
 }
 
 .about p {
     font-size: 3vh;
 }
 
-.faq b{
+.faq div {
+    background-color: #c89ca7;
+    background-clip: border-box;
+}
+
+.faq p {
+    font-size: 2vh;
+}
+
+.faq b {
     font-size: 3vh;
 }
 
-.about 
+.faq .col-sm-4 {
+    padding: 1vw;
+}
+
+.about-container {
+    width: 100vw;
+    background-color: #FCFF4b;
+}
+
+.faq-container {
+    width: 100vw;
+    background-color: #a45a6d;
+}
+
+.schedule-container {
+    width: 100vw;
+    background-color: #FFAD05;
+}
+
+.schedule div {
+    background-color: #ffcd69;
+    background-clip: content-box;
+    text-align: center;
+}
+
 
 /*smartphone portrait*/
 
@@ -207,7 +256,7 @@ nav {
         font-size: 6vh;
     }
     .title-body {
-        padding: 5vh 15vh;
+        padding: 0vh 0vh;
         font-size: 5vh;
     }
     .title-body img {
