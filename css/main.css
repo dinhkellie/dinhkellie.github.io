@@ -65,7 +65,7 @@ nav {
     text-align: center;
 }
 
-.jumbotron {
+.jumbotron1 {
     text-align: center;
 }
 
@@ -77,26 +77,24 @@ nav {
     color: #044389;
 }
 
-.jumbotron {
-    padding: 0vh 0;
+.jumbotron1 {
     text-align: center;
     width: 100vw;
-    height: 100vh;
+    height: 93vh;
     background: #ece8ef;
 }
 
-.jumbotron h1 {
-    display: inline-block;
+.jumbotron1 h1 {
     color: #6d03cd;
     font-family: 'Lobster', cursive;
     text-shadow: .03em .03em 0 hsla(212, 94%, 28%, 1);
 }
 
-.jumbotron h3 {
+.jumbotron1 h3 {
     padding: 5vh 0;
 }
 
-.jumbotron img {
+.jumbotron1 img {
     padding: 0 0;
 }
 
@@ -108,9 +106,11 @@ nav {
 .title-body {
     color: #6d03cd;
     margin: 2vw 10vw;
+    height: 30vh;
 }
 
 .left {
+    padding-top: 4vh;
     text-align: left;
 }
 
@@ -120,11 +120,16 @@ nav {
 }
 
 .right {
+    padding-top: 6vh;
     text-align: right;
 }
 
 .section {
     padding: 8vh 2vh 4vh 2vh;
+}
+
+.section h2 {
+    text-decoration: underline;
 }
 
 .section p {
@@ -138,8 +143,9 @@ nav {
     text-align: center;
 }
 
-.about div {
-    background-color: #fdff93;
+.about div, .schedule div, .sponsor div {
+    text-align: center;
+    background-color: #a1baf3;
     background-clip: content-box;
 }
 
@@ -148,7 +154,8 @@ nav {
 }
 
 .faq div {
-    background-color: #c89ca7;
+    text-align: center;
+    background-color: #a1baf3;
     background-clip: border-box;
 }
 
@@ -164,25 +171,9 @@ nav {
     padding: 1vw;
 }
 
-.about-container {
+.about-container, .faq-container, .schedule-container, .sponsor-container {
     width: 100vw;
-    background-color: #FCFF4b;
-}
-
-.faq-container {
-    width: 100vw;
-    background-color: #a45a6d;
-}
-
-.schedule-container {
-    width: 100vw;
-    background-color: #FFAD05;
-}
-
-.schedule div {
-    background-color: #ffcd69;
-    background-clip: content-box;
-    text-align: center;
+    background-color: #ece8ef;
 }
 
 
@@ -216,10 +207,7 @@ nav {
         font-size: 5vh;
     }
     .title-body {
-        align-content: center;
         font-size: 3vh;
-        padding: 0 0;
-        margin: none;
     }
     .title-body img {
         height: 20vh;
@@ -237,7 +225,6 @@ nav {
         font-size: 5vh;
     }
     .title-body {
-        padding: 0vh 0vh;
         font-size: 4vh;
     }
     .title-body img {
