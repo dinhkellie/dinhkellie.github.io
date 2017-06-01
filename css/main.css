@@ -128,10 +128,6 @@ nav {
     padding: 8vh 2vh 4vh 2vh;
 }
 
-.section h2 {
-    text-decoration: underline;
-}
-
 .section p {
     padding-top: 3vh;
     font-size: 2.5vh;
@@ -140,23 +136,11 @@ nav {
 
 .section h2 {
     color: #044389;
-    text-align: center;
-}
-
-.about div, .schedule div, .sponsor div {
-    text-align: center;
-    background-color: #a1baf3;
-    background-clip: content-box;
+    text-align: left;
 }
 
 .about p {
     font-size: 3vh;
-}
-
-.faq div {
-    text-align: center;
-    background-color: #a1baf3;
-    background-clip: border-box;
 }
 
 .faq p {
@@ -167,13 +151,34 @@ nav {
     font-size: 3vh;
 }
 
-.faq .col-sm-4 {
-    padding: 1vw;
+.faq {
+    padding: 0 10vw;
 }
 
-.about-container, .faq-container, .schedule-container, .sponsor-container {
+.schedule {
+    padding: 0vw 9vw;
+    text-align: left;
+}
+
+.sponsor p {
+    width: 50vw;
+    text-align: left;
+}
+
+.about div, .faq div .schedule div, .sponsor div, .register div {
+    text-align: center;
+    background-color: #a1baf3;
+    background-clip: content-box;
+    padding: 4vw 10vw;
+}
+
+.about-container, .faq-container, .schedule-container, .sponsor-container, .register-container {
     width: 100vw;
-    background-color: #ece8ef;
+    background-color: #a1baf3;
+}
+
+.col-sm-4 {
+    padding: 0 5vw 0 0;
 }
 
 
