@@ -260,7 +260,22 @@ nav {
 /*wide screen*/
 
 @media (min-width: 1600px) {
+    .jumbotron1 {
+        height: 94vh;
+    }
     .title {
         font-size: 18vh;
+    }
+    .title-body {
+        margin: 2vw 2vw;
+    }
+    .section {
+        padding: 0 0;
+    }
+    .schedule {
+        padding: 0 0;
+    }
+    .about div, .faq div .schedule div, .sponsor div, .register div {
+        padding: 4vw 0vw;
     }
 }
