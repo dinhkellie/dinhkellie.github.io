@@ -177,6 +177,12 @@ nav {
     background-color: #a1baf3;
 }
 
+.sponsor-container, .sponsor div {
+    background-color: white;
+    width: 100%;
+    padding: none;
+}
+
 .col-sm-4 {
     padding: 0 5vw 0 0;
 }
