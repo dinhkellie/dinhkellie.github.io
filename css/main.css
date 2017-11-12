@@ -169,10 +169,10 @@ nav {
     text-align: center;
     background-color: #a1baf3;
     background-clip: content-box;
-    padding: 4vw 10vw;
+    padding: 2vw 10vw;
 }
 
-.about-container, .faq-container, .schedule-container, .sponsor-container, .register-container {
+.about-container, .faq-container, .schedule-container, .sponsor-container, .register-container, .team-container{
     width: 100vw;
     background-color: #a1baf3;
 }
@@ -187,6 +187,23 @@ nav {
     padding: 0 5vw 0 0;
 }
 
+.profiles {
+    background-color: white;
+}
+
+.team {
+    padding: 2vw 10vw;
+}
+
+.team img {
+    background-size: cover;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+}
 
 /*smartphone portrait*/
 
@@ -281,7 +298,7 @@ nav {
     .schedule {
         padding: 0 0;
     }
-    .about div, .faq div .schedule div, .sponsor div, .register div {
+    .about div, .faq div .schedule div, .sponsor div, .register div .team div{
         padding: 4vw 0vw;
     }
 }
