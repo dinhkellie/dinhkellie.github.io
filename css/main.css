@@ -185,6 +185,13 @@ nav {
 .sponsor-container img {
     padding: 1%;
 }
+.schedule-container h3, 
+.schedule-container h4, 
+.schedule-container h5,
+.schedule-container h6 {
+    font-family: sans-serif;
+}
+
 
 .col-sm-4 {
     padding: 0 5vw 0 0;
