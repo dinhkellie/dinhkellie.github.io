@@ -1,7 +1,7 @@
 a {
     color: #044389;
 }
-.sidenav p,
+.sidenav p, .btn-sample, .menu-items, .social-media
 h1,
 h2,
 h3,
@@ -13,6 +13,8 @@ h4 {
     color: #FFFFFF;
     background-color: #ff78de;
     border-color: #D4910C;
+    width: 90px;
+    height: 40px;
 }
 
 .btn-sample:hover,
@@ -71,7 +73,7 @@ s p{
 .jumbotron1 {
     text-align: center;
     width: 100vw;
-    height: 93vh;
+    height: 100vh;
     /*background: #ece8ef;*/
     background-image: url("SisterHacks_background.jpg");
     background-repeat: no-repeat;
@@ -88,7 +90,7 @@ s p{
 
 .jumbotron1 h2 {
   font-family:'Utopia',serif;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
 }
 
 .jumbotron1 h3 {
@@ -102,12 +104,6 @@ s p{
 .btn-primary.outline {
     border: 2px solid #6e75ab;
     color: #6e75ab;
-}
-
-.title-body {
-    color: #6d03cd;
-    margin: 0vw 10vw;
-    height: 30vh;
 }
 
 .left {
@@ -229,17 +225,8 @@ s p{
     .subtitle {
         font-size: 5vh;
     }
-    .title-body {
-        text-align: center;
-        align-content: center;
-        font-size: 3vh;
-    }
-    .title-body img {
-        height: 15vh;
-        padding-bottom: 1vh;
-    }
     .btn {
-        font-size: 0.75em;
+        font-size: 3em;
     }
 
 }
@@ -305,13 +292,6 @@ s p{
     .subtitle {
         font-size: 5vh;
     }
-    .title-body {
-        padding: 0vh 0vh;
-        font-size: 5vh;
-    }
-    .title-body img {
-        height: 30vh;
-    }
 }
 
 
@@ -323,9 +303,6 @@ s p{
     }
     .title {
         font-size: 18vh;
-    }
-    .title-body {
-        margin: 1vw 1vw;
     }
     .section {
         padding: 0 0;
@@ -345,29 +322,66 @@ s p{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #dfd4fc;
+    /* dfd4fc */
+    background-color: #ff78de;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
-.sidenav a, p {
+.menu-items, .sidenav p {
     padding: 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 30px;
+    color: #FFFFFF;
     display: block;
     transition: 0.3s;
     text-align: center;
 }
 
-.sidenav p {
-  font-size: 30px;
-  color: #111
+.social-media li {
+  /*position: absolute;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: inline;
+  transition: 0.3s;
+  text-align: center;*/
+  display: inline;
+  padding: 8px 16px 100px 16px;
+  text-align: center;
+  transition: 0.3s;
+  color: #FFFFFF;
+
+
 }
 
-.sidenav a:hover, p:hover {
+.social-media ul {
+  list-style: none;
+  transition: 0.3s;
+  color: #FFFFFF;
+  vertical-align: bottom;
+}
+
+.closebtn {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+
+.sidenav p {
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #6d03cd
+  /*#6d03cd */
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
+    text-decoration: none;
 }
 
 .sidenav .closebtn {
@@ -383,4 +397,5 @@ s p{
     padding-left: 25px;
     padding-top: 5px;
     text-align: left;
+    color: #FFFFFF;
 }
