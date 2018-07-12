@@ -65,10 +65,6 @@ nav {
     text-align: center;
 }
 
-.jumbotron1 {
-    text-align: center;
-}
-
 .title {
     color: #6d03cd;
 }
@@ -331,6 +327,9 @@ nav {
     .about div, .faq div .schedule div, .sponsor div, .register div .team div{
         padding: 4vw 0vw;
     }
+
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 .sidenav {
@@ -371,12 +370,12 @@ nav {
 
 #menu {
     transition: margin-left .5s;
-    padding-left: 16px;
+    padding-left: 25px;
     padding-top: 5px;
     text-align: left;
 }
 
-@media screen and (max-height: 450px) {
+/*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+}*/
