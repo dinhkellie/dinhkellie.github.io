@@ -80,7 +80,7 @@ nav {
 .jumbotron1 {
     text-align: center;
     width: 100vw;
-    height: 93vh;
+    height: 100vh;
     background: #ece8ef;
 }
 
@@ -185,8 +185,8 @@ nav {
 .sponsor-container img {
     padding: 1%;
 }
-.schedule-container h3, 
-.schedule-container h4, 
+.schedule-container h3,
+.schedule-container h4,
 .schedule-container h5,
 .schedule-container h6 {
     font-family: sans-serif;
@@ -236,7 +236,7 @@ nav {
     .btn {
         font-size: 0.75em;
     }
-    
+
 }
 
 
@@ -331,4 +331,52 @@ nav {
     .about div, .faq div .schedule div, .sponsor div, .register div .team div{
         padding: 4vw 0vw;
     }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #dfd4fc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#menu {
+    transition: margin-left .5s;
+    padding-left: 16px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
