@@ -1,8 +1,7 @@
 a {
     color: #044389;
 }
-
-.navbar .navbar-brand,
+.sidenav p,
 h1,
 h2,
 h3,
@@ -56,13 +55,8 @@ fieldset[disabled] .btn-sample.active {
     background-color: #FFFFFF;
 }
 
-s p,
-nav li {
+s p{
     font-family: 'Raleway', sans-serif;
-}
-
-nav {
-    text-align: center;
 }
 
 .title {
@@ -327,9 +321,6 @@ nav {
     .about div, .faq div .schedule div, .sponsor div, .register div .team div{
         padding: 4vw 0vw;
     }
-
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
 }
 
 .sidenav {
@@ -345,7 +336,7 @@ nav {
     padding-top: 60px;
 }
 
-.sidenav a {
+.sidenav a, p {
     padding: 8px 8px 8px;
     text-decoration: none;
     font-size: 25px;
@@ -353,10 +344,15 @@ nav {
     display: block;
     transition: 0.3s;
     text-align: center;
-
 }
 
-.sidenav a:hover {
+.sidenav p {
+  font-size: 30px;
+  color: #111
+}
+
+
+.sidenav a:hover, p:hover {
     color: #f1f1f1;
 }
 
@@ -374,8 +370,3 @@ nav {
     padding-top: 5px;
     text-align: left;
 }
-
-/*@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}*/
