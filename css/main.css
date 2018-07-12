@@ -12,7 +12,7 @@ h4 {
 
 .btn-sample {
     color: #FFFFFF;
-    background-color: #FFAD05;
+    background-color: #ff78de;
     border-color: #D4910C;
 }
 
@@ -22,7 +22,7 @@ h4 {
 .btn-sample.active,
 .open .dropdown-toggle.btn-sample {
     color: #FFFFFF;
-    background-color: #D9C700;
+    background-color: #ff05b5;
     border-color: #D4910C;
 }
 
@@ -74,20 +74,31 @@ nav {
 }
 
 .subtitle {
-    color: #044389;
+    color: #ece8ef;
+    /* ece8ef #044389;*/
 }
 
 .jumbotron1 {
     text-align: center;
     width: 100vw;
     height: 93vh;
-    background: #ece8ef;
+    /*background: #ece8ef;*/
+    background-image: url("SisterHacks_background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .jumbotron1 h1 {
-    color: #6d03cd;
+    color: #ece8ef;
+    /*#6d03cd;*/
     font-family: 'Lobster', cursive;
+    margin-top: 125px;
     text-shadow: .03em .03em 0 hsla(212, 94%, 28%, 1);
+}
+
+.jumbotron1 h2 {
+  font-family:'Utopia',serif;
+  padding-top: 10px;
 }
 
 .jumbotron1 h3 {
@@ -105,7 +116,7 @@ nav {
 
 .title-body {
     color: #6d03cd;
-    margin: 2vw 10vw;
+    margin: 0vw 10vw;
     height: 30vh;
 }
 
@@ -132,11 +143,13 @@ nav {
     padding-top: 3vh;
     font-size: 2.5vh;
     line-height: 1.5;
+    color: #0c056d;
 }
 
 .section h2 {
-    color: #044389;
-    text-align: left;
+    color: #f25d9c;
+    /* 044389 ece8ef */
+    text-align: center;
 }
 
 .about p {
@@ -167,14 +180,16 @@ nav {
 
 .about div, .faq div .schedule div, .sponsor div, .register div {
     text-align: center;
-    background-color: #a1baf3;
+    background-color: #ece8ef;
+    /*#a1baf3; #ba69ff; #b45cff*/
     background-clip: content-box;
     padding: 2vw 10vw;
 }
 
 .about-container, .faq-container, .schedule-container, .sponsor-container, .register-container, .team-container{
     width: 100vw;
-    background-color: #a1baf3;
+    background-color: #ece8ef;
+    /*#a1baf3;*/
 }
 
 .sponsor-container, .sponsor div {
@@ -185,8 +200,8 @@ nav {
 .sponsor-container img {
     padding: 1%;
 }
-.schedule-container h3, 
-.schedule-container h4, 
+.schedule-container h3,
+.schedule-container h4,
 .schedule-container h5,
 .schedule-container h6 {
     font-family: sans-serif;
@@ -236,7 +251,7 @@ nav {
     .btn {
         font-size: 0.75em;
     }
-    
+
 }
 
 
