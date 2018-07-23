@@ -123,6 +123,16 @@ s p{
     padding: 8vh 2vh 3vh 2vh;
 }
 
+.col-sm-6 {
+  padding-bottom: 8vh;
+}
+
+.col-sm-4 {
+  padding-bottom: 8vh;
+  padding-right: 8vh;
+}
+
+
 .section p {
     padding-top: 3vh;
     font-size: 2.5vh;
@@ -177,13 +187,14 @@ s p{
     width: 100vw;
     height: 50vw;
     background-color: #ece8ef;
+    margin: 0;
     /*#a1baf3;*/
 }
 .faq-container {
   height: 60vw;
 }
 .team-container {
-  height: 140vw;
+  height: 110vw;
 }
 
 .schedule-container, .sponsor-container {
@@ -423,4 +434,51 @@ s p{
     content: "";
     clear: both;
     display: table;
+}
+
+/* source: http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/ */
+.hvrbox {
+	position:relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+  position: absolute;
+  padding: 15px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #f25d9c;
+	color: #fff;
+
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:100px;
+  width:200px;
+  height:200px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
