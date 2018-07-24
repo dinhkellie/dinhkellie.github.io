@@ -127,9 +127,18 @@ s p{
   padding-bottom: 8vh;
 }
 
-.col-md-4 {
+.col-change {
   padding-bottom: 14vh;
   padding-right: 8vh;
+}
+
+.col-change-us {
+  padding-bottom: 14vh;
+  padding-right: 6vh;
+}
+
+.col-md-4 {
+  padding-right: 3vh;
 }
 
 
@@ -190,25 +199,30 @@ s p{
     margin: 0;
     /*#a1baf3;*/
 }
+
+.about-container {
+  height: 79vw;
+}
 .faq-container {
-  height: 60vw;
+  height: 70vw;
 }
 .team-container {
-  height: 120vw;
+  height: 115vw;
 }
 
 .schedule-container, .sponsor-container {
   height: 20vw;
 }
 
-.sponsor-container, .sponsor div {
-    background-color: white;
-    width: 100%;
-    padding: none;
+.footer {
+  background-color: #ece8ef;
+  margin: 0;
 }
-.sponsor-container img {
-    padding: 1%;
+
+.faqcontainer {
+  width: 1200px;
 }
+
 .schedule-container h3,
 .schedule-container h4,
 .schedule-container h5,
@@ -473,11 +487,11 @@ s p{
 .hvrbox .hvrbox-text {
 	text-align: center;
 	font-size: 15px;
-	display: inline-block;
-	position: absolute;
+	display:inline-block;
+	position: relative;
 
 
-	top: 20px;
+	top: 60px;
 	left: 0;
 	right: 0;
 	bottom: 0;
