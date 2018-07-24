@@ -127,8 +127,8 @@ s p{
   padding-bottom: 8vh;
 }
 
-.col-sm-4 {
-  padding-bottom: 8vh;
+.col-md-4 {
+  padding-bottom: 14vh;
   padding-right: 8vh;
 }
 
@@ -194,7 +194,7 @@ s p{
   height: 60vw;
 }
 .team-container {
-  height: 110vw;
+  height: 120vw;
 }
 
 .schedule-container, .sponsor-container {
@@ -221,17 +221,17 @@ s p{
 }
 
 .team {
-    padding: 2vw 10vw;
+    padding: 2vw 2vw;
 }
 
 .team img {
     background-size: cover;
     overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:100px;
-    width:200px;
-    height:200px;
+    -webkit-border-radius:70px;
+    -moz-border-radius:70px;
+    border-radius:150px;
+    width:220px;
+    height:220px;
 }
 
 /*smartphone portrait*/
@@ -458,9 +458,9 @@ s p{
 
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
-  border-radius:100px;
-  width:200px;
-  height:200px;
+  border-radius:150px;
+  width:220px;
+  height:220px;
 	-moz-transition: all 0.4s ease-in-out 0s;
 	-webkit-transition: all 0.4s ease-in-out 0s;
 	-ms-transition: all 0.4s ease-in-out 0s;
@@ -472,13 +472,20 @@ s p{
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 16px;
+	font-size: 15px;
 	display: inline-block;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+
+
+	top: 20px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  /*
+	top: 25%;
+	left: 25%;
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);*/
 }
