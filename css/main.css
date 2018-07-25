@@ -120,9 +120,13 @@ s p{
 }
 
 .section {
-    padding: 8vh 2vh 3vh 2vh;
+    padding: 8vh 2vh 3vh 0vh;
 }
 
+.women-section {
+  color: #0c056d;
+  font-size: 2vh;
+}
 .col-sm-6 {
   padding-bottom: 8vh;
 }
@@ -138,7 +142,7 @@ s p{
 }
 
 .col-md-4 {
-  padding-right: 3vh;
+  padding-right: 1.8vh;
 }
 
 
@@ -154,10 +158,11 @@ s p{
     /* 044389 ece8ef */
     font-size: 60px;
     text-align: center;
+    margin-top: -5px;
 }
 
 .about p {
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .faq p {
@@ -201,13 +206,13 @@ s p{
 }
 
 .about-container {
-  height: 79vw;
+  height: 75vw;
 }
 .faq-container {
-  height: 70vw;
+  height: 75vw;
 }
 .team-container {
-  height: 115vw;
+  height: 130vw;
 }
 
 .schedule-container, .sponsor-container {
@@ -219,9 +224,6 @@ s p{
   margin: 0;
 }
 
-.faqcontainer {
-  width: 1200px;
-}
 
 .schedule-container h3,
 .schedule-container h4,
@@ -235,8 +237,9 @@ s p{
 }
 
 .team {
-    padding: 2vw 2vw;
+    padding: 0vw 2vw 2vw 2vw;
 }
+
 
 .team img {
     background-size: cover;
@@ -373,10 +376,11 @@ s p{
 
 .social-media li {
   display:inline;
-  padding: 0px 30px 20px;
-  margin-top: 50px;
+  padding: 0px 20px 20px;
+  margin-top: 60px;
   line-height: 300%;
-  margin-right: 20px;
+  margin-right: 25px;
+  margin-left: -18px;
 }
 
 .social-media ul {
