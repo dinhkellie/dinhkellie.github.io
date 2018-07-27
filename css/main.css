@@ -1,5 +1,7 @@
-.sidenav p, .btn-sample, .menu-items, .social-media
-h1,
+.sidenav p,
+.btn-sample,
+.menu-items,
+.social-media h1,
 h2,
 h3,
 h4 {
@@ -8,6 +10,7 @@ h4 {
 
 
 /* Not using a button rn, but good to have for later */
+
 /*
 .btn-sample {
     color: #FFFFFF;
@@ -65,11 +68,12 @@ fieldset[disabled] .btn-sample.active {
 }
 */
 
-s p{
+s p {
     font-family: 'Raleway', sans-serif;
 }
 
 /* about section */
+
 .title {
     color: #6d03cd;
 }
@@ -84,7 +88,7 @@ s p{
     height: 100vh;
     background-image: url("SisterHacks_background.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 .jumbotron1 h1 {
@@ -95,7 +99,7 @@ s p{
 }
 
 .jumbotron1 h2 {
-  font-family:'Utopia',serif;
+    font-family: 'Utopia', serif;
 }
 
 .jumbotron1 h3 {
@@ -107,8 +111,8 @@ s p{
 }
 
 .women-section {
-  color: #0c056d;
-  font-size: 2vh;
+    color: #0c056d;
+    font-size: 2vh;
 }
 
 /*ways to move items */
@@ -133,21 +137,21 @@ s p{
 }
 
 .col-sm-6 {
-  padding-bottom: 8vh;
+    padding-bottom: 8vh;
 }
 
 .col-change {
-  padding-bottom: 14vh;
-  padding-right: 8vh;
+    padding-bottom: 14vh;
+    padding-right: 8vh;
 }
 
 .col-change-us {
-  padding-bottom: 14vh;
-  padding-right: 6vh;
+    padding-bottom: 14vh;
+    padding-right: 6vh;
 }
 
 .col-md-4 {
-  padding-right: 1.8vh;
+    padding-right: 1.8vh;
 }
 
 
@@ -188,13 +192,21 @@ s p{
     text-align: left;
 }
 
-.about div, .faq div .schedule div, .sponsor div, .register div {
+.about div,
+.faq div .schedule div,
+.sponsor div,
+.register div {
     text-align: center;
     background-color: #ece8ef;
     background-clip: content-box;
 }
 
-.about-container, .faq-container, .schedule-container, .sponsor-container, .register-container, .team-container{
+.about-container,
+.faq-container,
+.schedule-container,
+.sponsor-container,
+.register-container,
+.team-container {
     width: 100vw;
     height: 50vw;
     background-color: #ece8ef;
@@ -202,26 +214,29 @@ s p{
 }
 
 .about-container {
-  height: 75vw;
+    height: 75vw;
 }
+
 .faq-container {
-  height: 75vw;
+    height: 75vw;
 }
+
 .team-container {
-  height: 130vw;
+    height: 100vw;
 }
 
 .container {
-  background-color: #ece8ef;
+    background-color: #ece8ef;
 }
 
-.schedule-container, .sponsor-container {
-  height: 20vw;
+.schedule-container,
+.sponsor-container {
+    height: 20vw;
 }
 
 .footer {
-  background-color: #ece8ef;
-  margin: 0;
+    background-color: #ece8ef;
+    margin: 0;
 }
 
 
@@ -243,15 +258,16 @@ s p{
 
 .team img {
     background-size: cover;
-    overflow:hidden;
-    -webkit-border-radius:70px;
-    -moz-border-radius:70px;
-    border-radius:150px;
-    width:220px;
-    height:220px;
+    overflow: hidden;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 150px;
+    width: 220px;
+    height: 220px;
 }
 
 /* The menu */
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -265,7 +281,8 @@ s p{
     padding-top: 60px;
 }
 
-.menu-items, .sidenav p {
+.menu-items,
+.sidenav p {
     padding: 8px 8px 8px;
     text-decoration: none;
     font-size: 30px;
@@ -285,9 +302,9 @@ s p{
 }
 
 .sidenav p {
-  font-size: 35px;
-  margin-bottom: 10px;
-  color: #6d03cd
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #6d03cd
 }
 
 .sidenav a:hover {
@@ -312,37 +329,39 @@ s p{
 }
 
 /* Social Media icons */
+
 .social-media li {
-  display:inline;
-  padding: 0px 20px 20px;
-  margin-top: 60px;
-  line-height: 300%;
-  margin-right: 25px;
-  margin-left: -18px;
+    display: inline;
+    padding: 0px 20px 20px;
+    margin-top: 60px;
+    line-height: 300%;
+    margin-right: 25px;
+    margin-left: -18px;
 }
 
 .social-media ul {
-  list-style: none;
-  color: #FFFFFF;
+    list-style: none;
+    color: #FFFFFF;
 }
 
 .social-media li :hover {
-  color: #ff78de;
+    color: #ff78de;
 }
 
 .fa {
-  color: #ece8ef;
+    color: #ece8ef;
 }
 
 /* photos on about section */
+
 #column {
-  float: left;
-  width: 40%;
-  height: auto;
-  padding: 15px;
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 15px;
 }
 
-.photos2018{
+.photos2018 {
     float: left;
     width: 33.3%;
     padding: 5px;
@@ -355,49 +374,53 @@ s p{
 }
 
 /* source: http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/ */
+
 /*hoverboxes on the team photo section */
+
 .hvrbox {
-	position:relative;
-	display: inline-block;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
 }
 
 .hvrbox .hvrbox-layer_top {
-	opacity: 0;
-  position: absolute;
-  padding: 15px;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #f25d9c;
-	color: #fff;
+    opacity: 0;
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f25d9c;
+    color: #fff;
 
-  -webkit-border-radius:50px;
-  -moz-border-radius:50px;
-  border-radius:150px;
-  width:220px;
-  height:220px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 150px;
+    width: 220px;
+    height: 220px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
 }
+
 .hvrbox:hover .hvrbox-layer_top,
 .hvrbox.active .hvrbox-layer_top {
-	opacity: 1;
+    opacity: 1;
 }
+
 .hvrbox .hvrbox-text {
-	text-align: center;
-	font-size: 15px;
-	display:inline-block;
-	position: relative;
-	top: 60px;
-	left: 0;
-	right: 0;
-	bottom: 0;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 /*smartphone portrait*/
@@ -495,7 +518,10 @@ s p{
     .schedule {
         padding: 0 0;
     }
-    .about div, .faq div .schedule div, .sponsor div, .register div .team div{
+    .about div,
+    .faq div .schedule div,
+    .sponsor div,
+    .register div .team div {
         padding: 4vw 0vw;
     }
 }
