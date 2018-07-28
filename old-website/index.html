@@ -1,0 +1,337 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="SisterHacks at Bryn Mawr College">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+
+    <script src="js/main.js"></script>
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <!--    From W3Schools jQuery Animate Smooth Scroll-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SisterHacks</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-custom" id="navbar">
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#faq">FAQ</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#team">Team</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#schedule">Schedule</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="http://sisterhacks.devpost.com" target="_blank">Devpost</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="http://facebook.com/sisterhacks"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="http://twitter.com/sisterhacks"><i class="fa fa-twitter fa-2x"></i></a></li>
+                </ul>
+            </div>
+            <!--/.navbar-collapse -->
+
+        </div>
+
+    </nav>
+    <div id="home">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron1">
+            <div class="container">
+                <h1 class="title" data-shadow='SisterHacks'>SisterHacks</h1>
+                <h2 class="subtitle">March 24 - 25, 2018 // Bryn Mawr College</h2>
+                <div class="row">
+                    <h3 class="title-body">
+                        <div class="col-md-4 left">6 Schools <br> 24 Hours <br> Infinite Creativity </div>
+                        <div class="col-md-4 center"><img src="img/globe.png" alt="globe graphic">
+<!--                            <p><a href="https://goo.gl/forms/nkajo81pANOWqOlk2" class="btn btn-sample btn-lg" target="_blank" role="button">Registration is open!</a></p>-->
+                        </div>
+                        <div class="col-md-4 right">Hack for Equality<br> in Technology</div>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-container">
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-sm-12 about" id="about">
+                    <div class="section">
+                        <br>
+                        <h2>What is SisterHacks?</h2>
+                        <p><b>SisterHacks is the first hackathon for the Seven Sisters schools: Barnard, Bryn Mawr, Mount Holyoke, Smith, Vassar, and Wellesley Colleges. Our goal is to empower women in tech by working together with other strong women*. We want to increase interest in computer science at the Seven Sisters and connect the colleges more.
+                <br><br>
+                    *We realize that not all students of Seven Sisters schools identify as women and we welcome all trans, non-binary, and gender nonconforming students. </b> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq-container" id="faq">
+        <div class="container">
+            <div class="row faq section">
+                <br>
+                <br>
+                <h2> FAQ </h2>
+                <div class="col-sm-4">
+                    <p><b>What is a hackathon?</b>
+                        <br> It's an event where participants gather together and turn their ideas into finished products in a short amount of time (usually 12-36 hours).
+                        <br>
+                        <br>
+                        <b>How will I get to Bryn Mawr? Will there be travel reimbursements?</b>
+                        <br><u>Updated:</u> We will provide some travel reimbursements for students. Sign ups are in the form emailed to all registered participants. Students coming out of state can take bus or train to Philadelphia 30th Street Station. We will have vans to pick you up at 30th Street Station every hour between 8:30 - 11:30 PM to go to Bryn Mawr College for the event.
+                        <br>
+                        <br>
+                        <b>What are the guidelines for the event?</b>
+                        <br> We will be following the <a href="docs/mlh-code-of-conduct.pdf">Major League Hacking (MLH) Code of Conduct</a>.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p><b>Who can participate?</b>
+                        <br> Anyone attending a Seven Sisters college (Barnard, Bryn Mawr, Mount Holyoke, Smith, Vassar, Wellesley). While this is a hackathon intended for women and femme-identifying individuals we encourage all students of the Seven Sister schools to participate, especially those of marginalized racial, gender, and sexual identities.
+                        <br>
+                        <br>
+                        <b>Can I come even if I have never written a line of code in my life?</b>
+                        <br> Yes! We encourage beginner to advanced coders who come from a variety of majors (not just CS!) to attend. We will be holding workshops throughout the hackathon so you can learn something from your time here!
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p><b>Do I have to be in a team? How many people per team?</b>
+                        <br> Yes, we would like everyone to be in a team of 2-4 people so that you can work with people from different schools with different skills and abilities. Don't worry if you don't have a team! We encourage people looking for team members to utilize our <a href="https://www.facebook.com/groups/373204539861530/">Facebook group</a> to post and connect with fellow participants. We will also have a team formation event before hacking starts!
+                        <br>
+                        <br>
+                        <b>How much will it cost?</b>
+                        <br>Admission is free! Meals, snacks, workshops, and company swag will be provided.
+                        <br>
+                        <br>
+                        <b>Have other questions?</b>
+                        <br> Email us at <a href="mailto:sisterhacksteam@gmail.com">sisterhacksteam@gmail.com</a> and we will be sure to get back to you ASAP!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-container">
+        <div class="container">
+            <div class="row team" id="team">
+                <div class="section">
+                    <h2>Our Team</h2>
+                    <div class="col-sm-6 center">
+                        <img src="img/Jocelyn_Dunkley.jpg">
+                        <p><b>Jocelyn Dunkley<br>Founder and Organizer<br>Bryn Mawr '20</b></p>
+                    </div>
+                    <div class="col-sm-6 center">
+                        <img src="img/Kellie_Dinh.png">
+                        <p><b>Kellie Dinh<br>Co-Founder and Marketing and Outreach<br>Bryn Mawr '19</b></p>
+
+                    </div>
+                </div>
+                <div class="section">
+                    <h2>Judges</h2>
+                    <div class="col-sm-6 center">
+                        <img src="img/Aline_Normoyle.jpg">
+                        <p><b>Aline Normoyle<br>Visiting Assistant Professor of Computer Science<br>Swarthmore College</b></p>
+                    </div>
+                    <div class="col-sm-6 center">
+                        <img src="img/Richard_Eisenberg.jpeg">
+                        <p><b>Richard Eisenberg<br>Assistant Professor of Computer Science<br>Bryn Mawr College</b></p>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="schedule-container">
+        <div class="container">
+            <div class="row schedule" id="schedule">
+                <div class="section">
+                    <h2>Schedule</h2>
+                    <b>SisterHacks will be in Dalton Hall, Bryn Mawr College (203 N. Merion Ave, Bryn Mawr, PA 19010)
+                    </b>
+                    <div class="col-sm-6">
+                        <p><b>Friday, March 23<br></b> 8:00 - 11:00 PM:
+                            <br> Participants begin arriving
+                            <br> Team Formation!
+                            <p><b>Saturday, March 24<br>
+                        First day of SisterHacks</b>
+                                <br> 8 AM: Breakfast and Team Formation
+                                <br> 9:00 - 9:45: Opening Ceremony
+                                <br> 10:00: Hacking begins!
+                                <br>
+                                <br>
+                                11:00: <b>Workshop: Intro to Web Development</b> with Ruthie Fields, Research Technologist and Data Manager at Thomas Jefferson University, Room 119
+                                <br>
+                                <br> 12:00 PM: Lunch
+                                <br>
+                                <br> 1:00: <b>Workshop: Twilio API - Learn how to add voice and SMS text messaging capabilities to your Python application</b> with Lizzie Siegle, Bryn Mawr '18, Twilio Developer Evangelist, Room 025
+                                <br>
+                                <br> 1:00 and 2:00: <b>Workshop: Mixed Reality -  Microsoft Hololens Demonstration</b> with Palak Bhandari, Educational Technologist at Bryn Mawr College, Room 119
+                                <br>
+                                <br>2:00: <b>Workshop: Intro to Unity for Virtual and Augmented Reality Applications</b> with Jessica Linker, CLIR Humanities and Digital Scholarship Postdoctoral Fellow at Bryn Mawr College, Room 025
+                                <br>
+                                <br> 3:00: <b>Alumnae in Tech Tea!</b> Hear experiences of Seven Sisters alumns that work in fields like Machine Learning, UX/UI Design, and Software Engineering! Room 212A
+                                <br>
+                                <br>
+                                4:00: Relax and unwind with yoga! Room 212E
+                                <br>
+                                <br> 6:00: Dinner
+                            </p>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p><b>Sunday, March 25<br>
+                            Second day of SisterHacks</b>
+                            <br> 12:00 AM: Midnight Snack - Insomnia Cookies
+                            <br> 7:30: Breakfast
+                            <br> 10:00: Hacking ends
+                            <br> 10:00 - 11:00: Demo time!
+                            <br> 11:00 - 11:30: Judges convene
+                            <br> 11:30 - 1:00 PM: Closing Ceremony, Awards and Prizes!
+                            <br>
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sponsor-container">
+            <div class="container">
+                <div class="row sponsor" id="sponsor">
+                    <div class="section">
+                        <h2>Sponsorship</h2>
+                        <p>Thank you to all our sponsors that helped support SisterHacks!</p>
+                        <p style="text-align: center"><b>Our Sponsors</b></p>
+                        <a href="https://www.stickergiant.com/">
+                            <img src="/img/logos/stickergiant-logo.svg" style="width: 25%" alt="Sticker Giant">
+                        </a>
+                        <a href="https://www.facebook.com/bmengineersmakers/" target="_blank">
+                            <img src="img/logos/bmc-engineers-makers.jpg" alt="Bryn Mawr Engineers and Makers" style="width: 35%">
+                        </a>
+                        <a href="https://www.haverford.edu/" target="_blank">
+                            <img src="img/logos/HLib.png" alt="Haverford Libraries" style="width: 35%">
+                        </a>
+                        <a href="http://iits.haverford.edu/" target="_blank">
+                            <img src="img/logos/itts.png" alt="Haverford IITS" style="width: 20%">
+                        </a>
+                        <a href="https://www.haverford.edu/integrated-natural-sciences-center" target="_blank">
+                            <img src="img/logos/KINSC%20Logo%201.png" alt="Haverford KINSC" style="width: 25%">
+                        </a>
+                        <a href="https://www.brynmawr.edu/oig" target="_blank">
+                            <img src="img/logos/oiglogo.png" alt="Bryn Mawr Owl Investment Group" style="width: 25%">
+                        </a>
+                        <a href="https://www.brynmawr.edu/lits" target="_blank">
+                            <img src="img/logos/Bryn_Mawr_LITS_vector.jpeg" alt="Bryn Mawr LITS" style="width: 25%">
+                        </a>
+                        <p> <a href="https://www.brynmawr.edu/math/" target="_blank">Bryn Mawr College Department of Mathematics</a>
+                            <br> <a href="https://www.brynmawr.edu/biology/" target="_blank">Bryn Mawr College Department of Biology</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <footer>
+            <p>&copy; SisterHacks 2017</p>
+        </footer>
+
+        <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+        </script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                
+                a = s.createElement(o)
+                    , m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-100586372-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+</body>
+
+</html>
