@@ -13,7 +13,7 @@ h4 {
     background-color: #ff78de;
     border-color: #D4910C;
     margin-top: 20px;
-    width: 230px;
+    width: 200px;
     height: 40px;
     font-size: 16px;
 }
@@ -67,7 +67,6 @@ s p {
     font-family: 'Raleway', sans-serif;
 }
 
-
 /* about section */
 
 .title {
@@ -95,7 +94,7 @@ s p {
 }
 
 .jumbotron1 h2 {
-    font-family: sans-serif;
+    font-family: 'Utopia', serif;
 }
 
 .jumbotron1 h3 {
@@ -106,11 +105,10 @@ s p {
     padding: 0 0;
 }
 
-.gender-section {
+.women-section {
     color: #0c056d;
     font-size: 2vh;
 }
-
 
 /*ways to move items */
 
@@ -151,6 +149,7 @@ s p {
     padding-right: 1.8vh;
 }
 
+
 .section p {
     padding-top: 3vh;
     font-size: 2.5vh;
@@ -171,6 +170,7 @@ s p {
 
 .faq p {
     font-size: 2vh;
+
 }
 
 .faq b {
@@ -229,15 +229,11 @@ s p {
     height: 20vw;
 }
 
-.sponsor-container .container {
-    background-color: #ece8ef;
-    width: 100%;
-}
-
 .footer {
     background-color: #ece8ef;
     margin: 0;
 }
+
 
 .schedule-container h3,
 .schedule-container h4,
@@ -254,6 +250,7 @@ s p {
     padding: 0vw 2vw 2vw 2vw;
 }
 
+
 .team img {
     background-size: cover;
     overflow: hidden;
@@ -263,7 +260,6 @@ s p {
     width: 220px;
     height: 220px;
 }
-
 
 /* The menu */
 
@@ -327,7 +323,6 @@ s p {
     color: #FFFFFF;
 }
 
-
 /* Social Media icons */
 
 .social-media li {
@@ -344,14 +339,13 @@ s p {
     color: #FFFFFF;
 }
 
-.social-media li:hover {
+.social-media li :hover {
     color: #ff78de;
 }
 
 .fa {
     color: #ece8ef;
 }
-
 
 /* photos on about section */
 
@@ -374,9 +368,7 @@ s p {
     display: table;
 }
 
-
 /* source: http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/ */
-
 
 /*hoverboxes on the team photo section */
 
@@ -398,6 +390,7 @@ s p {
     bottom: 0;
     background: #f25d9c;
     color: #fff;
+
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 150px;
@@ -425,7 +418,6 @@ s p {
     bottom: 0;
 }
 
-
 /*smartphone portrait*/
 
 @media (min-width: 320px) {
@@ -438,6 +430,7 @@ s p {
     .btn {
         font-size: 1.5em;
     }
+
 }
 
 
@@ -501,6 +494,7 @@ s p {
     .subtitle {
         font-size: 5vh;
     }
+
 }
 
 
