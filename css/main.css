@@ -208,18 +208,6 @@ s p {
     margin: 0;
 }
 
-.about-container {
-    min-height: 75vw;
-}
-
-.faq-container {
-    min-height: 75vw;
-}
-
-.team-container {
-    min-height: 100vw;
-}
-
 .container {
     background-color: #ece8ef;
 }
