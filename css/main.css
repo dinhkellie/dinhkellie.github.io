@@ -1,4 +1,4 @@
-.sidenav p,
+f.sidenav p,
 .btn-sample,
 .menu-items,
 .social-media h1,
@@ -81,7 +81,7 @@ s p {
 .jumbotron1 {
     text-align: center;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("SisterHacks_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,21 +203,21 @@ s p {
 .register-container,
 .team-container {
     width: 100vw;
-    height: 50vw;
+    min-height: 50vw;
     background-color: #ece8ef;
     margin: 0;
 }
 
 .about-container {
-    height: 75vw;
+    min-height: 75vw;
 }
 
 .faq-container {
-    height: 75vw;
+    min-height: 75vw;
 }
 
 .team-container {
-    height: 100vw;
+    min-height: 100vw;
 }
 
 .container {
@@ -226,7 +226,7 @@ s p {
 
 .schedule-container,
 .sponsor-container {
-    height: 20vw;
+    min-height: 20vw;
 }
 
 .sponsor-container .container {
@@ -428,7 +428,7 @@ s p {
 
 /*smartphone portrait*/
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .title {
         font-size: 10vh;
     }
@@ -438,12 +438,15 @@ s p {
     .btn {
         font-size: 1.5em;
     }
+    .photos2018 {
+        width: 100%;
+    }
 }
 
 
 /*smartphone landscape*/
 
-@media (min-width: 481px) {
+@media (max-width: 481px) {
     .title {
         font-size: 15vh;
     }
@@ -463,7 +466,7 @@ s p {
         height: 15vh;
     }
     .btn {
-        font-size: 0.5em;
+        font-size: 1em;
     }
 }
 
